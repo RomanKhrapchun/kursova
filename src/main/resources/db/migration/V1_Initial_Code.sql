@@ -1,0 +1,41 @@
+USE kursova;
+DROP TABLE IF EXISTS user;
+CREATE TABLE user (
+id bigint NOT NULL AUTO_INCREMENT,
+password VARCHAR(250) NOT NULL,
+name VARCHAR(50) NOT NULL,
+location VARCHAR (35) NOT NULL,
+card_number bigint NOT NULL,
+email VARCHAR (50) NOT NULL,
+PRIMARY KEY (id)
+
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4;
+
+DROP TABLE IF EXISTS product;
+CREATE TABLE product (
+ id bigint NOT NULL AUTO_INCREMENT,
+ name VARCHAR(50),
+ description VARCHAR(50),
+ price decimal(10,2),
+ PRIMARY KEY (id)
+)ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4;
+
+DROP TABLE IF EXISTS admin;
+CREATE TABLE admin (
+id bigint NOT NULL AUTO_INCREMENT,
+password VARCHAR(50) NOT NULL,
+name VARCHAR(50) NOT NULL,
+admin_role VARCHAR (25) NOT NULL,
+PRIMARY KEY (id)
+
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4;
+
+DROP TABLE IF EXISTS order_details;
+CREATE TABLE order_details (
+id bigint NOT NULL AUTO_INCREMENT,
+creator VARCHAR(50) NOT NULL,
+product varchar(50) not null,
+product_amount bigint not null,
+PRIMARY KEY (id)
+
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4;
