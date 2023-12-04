@@ -1,6 +1,6 @@
 package Kursova.security;
 
-import Kursova.resource.service.impl.UserDetailsServiceImpl;
+import Kursova.service.impl.UserDetailsServiceImpl;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

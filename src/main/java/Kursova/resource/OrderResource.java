@@ -2,10 +2,10 @@ package Kursova.resource;
 
 import Kursova.dto.OrderDTO;
 import Kursova.repository.OrderRepository;
-import Kursova.resource.service.OrderService;
-import Kursova.resource.service.ProductService;
-import Kursova.resource.service.impl.OrderServiceImpl;
-import Kursova.resource.service.impl.ProductServiceImpl;
+import Kursova.service.OrderService;
+import Kursova.service.ProductService;
+import Kursova.service.impl.OrderServiceImpl;
+import Kursova.service.impl.ProductServiceImpl;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

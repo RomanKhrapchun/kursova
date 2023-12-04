@@ -2,8 +2,8 @@ package Kursova.resource;
 
 import Kursova.dto.UserDTO;
 import Kursova.repository.UserRepository;
-import Kursova.resource.service.UserService;
-import Kursova.resource.service.impl.UserServiceImpl;
+import Kursova.service.UserService;
+import Kursova.service.impl.UserServiceImpl;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

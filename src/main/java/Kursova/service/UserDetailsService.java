@@ -1,4 +1,4 @@
-package Kursova.resource.service;
+package Kursova.service;
 
 import org.springframework.security.core.userdetails.UserDetails;
 

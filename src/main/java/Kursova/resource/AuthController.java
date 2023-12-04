@@ -4,7 +4,7 @@ import Kursova.dto.*;
 import Kursova.entity.User;
 import Kursova.repository.UserRepository;
 import Kursova.security.JwtUtils;
-import Kursova.resource.service.impl.UserDetailsImpl;
+import Kursova.service.impl.UserDetailsImpl;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

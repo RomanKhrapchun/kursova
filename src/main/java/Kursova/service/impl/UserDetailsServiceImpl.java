@@ -1,4 +1,4 @@
-package Kursova.resource.service.impl;
+package Kursova.service.impl;
 
 import Kursova.entity.User;
 import Kursova.repository.UserRepository;

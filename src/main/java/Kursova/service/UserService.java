@@ -1,4 +1,4 @@
-package Kursova.resource.service;
+package Kursova.service;
 
 import Kursova.dto.UserDTO;
 

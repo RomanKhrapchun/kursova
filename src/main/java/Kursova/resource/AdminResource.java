@@ -2,8 +2,8 @@ package Kursova.resource;
 
 import Kursova.dto.AdminDTO;
 import Kursova.repository.AdminRepository;
-import Kursova.resource.service.AdminService;
-import Kursova.resource.service.impl.AdminServiceImpl;
+import Kursova.service.AdminService;
+import Kursova.service.impl.AdminServiceImpl;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

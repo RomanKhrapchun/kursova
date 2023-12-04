@@ -1,10 +1,10 @@
-package Kursova.resource.service.impl;
+package Kursova.service.impl;
 
 import Kursova.dto.UserDTO;
 import Kursova.entity.User;
 import Kursova.mapper.MapperUser;
 import Kursova.repository.UserRepository;
-import Kursova.resource.service.UserService;
+import Kursova.service.UserService;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,10 +1,10 @@
-package Kursova.resource.service.impl;
+package Kursova.service.impl;
 
 import Kursova.dto.AdminDTO;
 import Kursova.entity.Admin;
 import Kursova.mapper.MapperAdmin;
 import Kursova.repository.AdminRepository;
-import Kursova.resource.service.AdminService;
+import Kursova.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
