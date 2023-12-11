@@ -1,5 +1,6 @@
 package Kursova.dto;
 
+import jakarta.persistence.Id;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
@@ -10,16 +11,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserDTO {
-    @NotNull
+    @Id
     private Long id;
+    @NotNull
+    private String name;
     @Email
     private String email;
     @NotNull
     private String password;
-    @NotNull
-    private String name;
-    @NotNull
-    private String location;
-    @NotNull
-    private Long cardNumber;
 }

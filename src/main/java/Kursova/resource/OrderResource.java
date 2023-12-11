@@ -70,7 +70,6 @@ public class OrderResource {
 
     @GetMapping(value = "/all")
     public List<OrderDTO> getAll() {
-        return orderService.getAll();
+        return orderService.getForUser();
     }
 }
-

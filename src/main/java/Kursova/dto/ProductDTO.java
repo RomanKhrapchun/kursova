@@ -20,4 +20,5 @@ public class ProductDTO {
     @Positive
     private BigDecimal price;
     private int productAmount;
+    private String imageUrl;
 }

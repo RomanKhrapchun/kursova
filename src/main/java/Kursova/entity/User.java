@@ -17,18 +17,12 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "name")
+    private String name;
+
     @Email
     private String email;
 
     @Column(name = "password")
     private String password;
-
-    @Column(name = "name")
-    private String name;
-
-    @Column(name = "location")
-    private String location;
-
-    @Column(name = "card_number")
-    private Long cardNumber;
 }

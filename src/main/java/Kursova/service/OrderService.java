@@ -14,4 +14,6 @@ public interface OrderService {
     void delete(Long code);
 
     List<OrderDTO> getAll();
+
+    List<OrderDTO> getForUser();
 }

@@ -16,8 +16,4 @@ public class SignupRequest {
     private String email;
     @NotNull
     private String password;
-    @NotNull
-    private String location;
-    @NotNull
-    private Long cardNumber;
 }

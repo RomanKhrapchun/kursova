@@ -28,4 +28,7 @@ public class Product {
 
     @Column(name = "product_amount")
     private int productAmount;
+
+    @Column(name = "image_url")
+    private String imageUrl;
 }
